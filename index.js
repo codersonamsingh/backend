@@ -11,6 +11,10 @@ dotenv.config({
 
 
 connectDB()
+.then()
+.catch((error) => {
+    
+})
 
 
 
